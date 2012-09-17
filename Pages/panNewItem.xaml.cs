@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace IntelliShopMobile.Pages
 {
-    public partial class pivNewItem : PhoneApplicationPage
+    public partial class panNewItem : PhoneApplicationPage
     {
-        public pivNewItem()
+        public panNewItem()
         {
             InitializeComponent();
         }

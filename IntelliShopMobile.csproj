@@ -66,11 +66,11 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\panNewItem.xaml.cs">
+      <DependentUpon>panNewItem.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\panSelectMarket.xaml.cs">
       <DependentUpon>panSelectMarket.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\pivNewItem.xaml.cs">
-      <DependentUpon>pivNewItem.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\porNewList.xaml.cs">
       <DependentUpon>porNewList.xaml</DependentUpon>
@@ -89,11 +89,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\panSelectMarket.xaml">
+    <Page Include="Pages\panNewItem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\pivNewItem.xaml">
+    <Page Include="Pages\panSelectMarket.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
