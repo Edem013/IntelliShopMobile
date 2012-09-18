@@ -14,28 +14,20 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="{StaticResource BackGround}" >
+    <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="153"/>
-            <RowDefinition Height="615*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Margin="0,0,0,33" Background="#FF7D87D4">
-            <TextBlock x:Name="ApplicationTitle" Style="{StaticResource AppTitle}" />
-            <TextBlock x:Name="PageTitle" Text="Main Menu" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="97" Foreground="White" />
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Margin="0,4,0,0" Grid.Row="1">
-            <Border Margin="0,102,0,409" Name="border1" Style="{StaticResource BtnBorder}">
-                <Button Content="Shopping" Name="btnShopping" Style="{StaticResource Button}" />
-            </Border>
-            <Border Margin="0,209,0,302" Name="border2" Style="{StaticResource BtnBorder}">
-                <Button Content="Settings" Name="button1" Style="{StaticResource Button}" />
-            </Border>
-        </Grid>
-        
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"></Grid>
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->
