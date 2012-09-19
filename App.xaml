@@ -6,7 +6,8 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     >
-    
+
+    <!--Comment added-->
     <!--Application Resources-->
     <Application.Resources>
         <ImageBrush x:Key="BackGround" ImageSource="/Pictures/Tile_03.jpg" Stretch="Fill"/>
