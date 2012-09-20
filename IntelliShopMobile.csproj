@@ -63,6 +63,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Item.cs" />
+    <Compile Include="Classes\List.cs" />
+    <Compile Include="Classes\Market.cs" />
+    <Compile Include="Classes\Shopping.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -72,6 +76,9 @@
     <Compile Include="Pages\panSelectMarket.xaml.cs">
       <DependentUpon>panSelectMarket.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\pivProcess.xaml.cs">
+      <DependentUpon>pivProcess.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\porNewList.xaml.cs">
       <DependentUpon>porNewList.xaml</DependentUpon>
     </Compile>
@@ -80,6 +87,9 @@
     </Compile>
     <Compile Include="Pages\porShopping.xaml.cs">
       <DependentUpon>porShopping.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\useList.xaml.cs">
+      <DependentUpon>useList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User Control\usrPcitureController.xaml.cs">
@@ -103,6 +113,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\pivProcess.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\porNewList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -112,6 +126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\porShopping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\useList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -131,7 +149,7 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Pictures\imgDone.png" />
+    <Resource Include="Pictures\imgDone.png" />
     <Content Include="Pictures\Tile_01.jpg" />
     <Content Include="Pictures\Tile_02.jpg" />
     <Content Include="Pictures\Tile_03.jpg" />

@@ -40,7 +40,7 @@
             </Border>
             <Border BorderBrush="Silver" BorderThickness="1" Height="90" HorizontalAlignment="Left" Margin="333,543,0,0" Name="border7" Style="{StaticResource Border}" VerticalAlignment="Top" Width="115">
                 <Button BorderThickness="0" Name="btnContinue" Click="btnContinue_Click">
-                    <Image Source="C:\Users\Kisslac\documents\visual studio 2010\Projects\IntelliShopMobile\IntelliShopMobile\Pictures\imgDone.png" />
+                    <Image Source="C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Pictures\imgDone.png"/>
                 </Button>
             </Border>
         </Grid>
