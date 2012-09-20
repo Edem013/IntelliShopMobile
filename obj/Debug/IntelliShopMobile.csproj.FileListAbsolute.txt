@@ -1,0 +1,26 @@
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\ApplicationIcon.png
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\Background.png
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\IntelliShopMobile.dll
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\IntelliShopMobile.pdb
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\AppManifest.xaml
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\IntelliShopMobile.xap
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\App.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\MainPage.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\panNewItem.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\panSelectMarket.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\porNewList.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\porShopping.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\IntelliShopMobile.g.resources
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\IntelliShopMobile.dll
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\IntelliShopMobile.pdb
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\XapCacheFile.xml
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\User Control\usrPcitureController.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\porReviewItems.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\pivProcess.g.i.cs
+C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\obj\Debug\Pages\useList.g.i.cs

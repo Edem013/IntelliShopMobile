@@ -1,0 +1,77 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="IntelliShopMobile.Pages.panNewItem"
+    Style="{StaticResource TurnStileTransition}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False" xmlns:my="clr-namespace:IntelliShopMobile.User_Control">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource BackGround}">
+        <Rectangle Height="100" HorizontalAlignment="Left" Margin="0,184,0,0" Name="rectangle1" StrokeThickness="1" VerticalAlignment="Top" Width="431" Fill="#FF7D87D4" />
+        <Rectangle Height="178" HorizontalAlignment="Left" Name="rectangle2" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="480" Fill="#FF7D87D4"/>
+        <controls:Panorama Title="New Item">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Item">
+                <Grid>
+                    <Border BorderBrush="Silver" Height="90" HorizontalAlignment="Left" Margin="5,10,0,0" Name="border4" Style="{StaticResource Border}" VerticalAlignment="Top" Width="410">
+                        <TextBox Height="76" Name="textBox1" Text="Item Name" />
+                    </Border>
+                    <Border BorderBrush="Silver" Height="90" HorizontalAlignment="Left" Margin="5,105,0,0" Name="border1" Style="{StaticResource Border}" VerticalAlignment="Top" Width="250">
+                        <TextBox Height="76" Name="textBox2" Text="Prize" />
+                    </Border>
+                    <ComboBox Name="comCurrency" Margin="260,109,14,304" Height="85" Width="150" Background="#FF7D87D4" BorderBrush="#FF7D87D4">
+                        
+                    </ComboBox>
+                    <Border BorderBrush="Silver" Height="90" HorizontalAlignment="Left" Margin="5,200,0,0" Name="border2" Style="{StaticResource Border}" VerticalAlignment="Top" Width="250">
+                        <TextBox Height="76" Name="textBox3" Text="Count/Weight" />
+                    </Border>
+                    <ComboBox Name="comWghtCount" Margin="260,205,14,304" Height="85" Width="150" Background="#FF7D87D4" BorderBrush="#FF7D87D4">
+
+                    </ComboBox>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="90" HorizontalAlignment="Left" Margin="305,389,0,0" Name="border7" Style="{StaticResource Border}" VerticalAlignment="Top" Width="115">
+                        <Button BorderThickness="0" Name="btnContinue" Click="btnContinue_Click">
+                            <Image Source="C:\Users\lkiss.SZINTEZIS-NET\Documents\GitHub\IntelliShopMobile\Pictures\imgDone.png" />
+                        </Button>
+                    </Border>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="Details">
+                <Grid>
+                    <my:usrPcitureController HorizontalAlignment="Left" Margin="2,1,0,0" x:Name="usrPcitureController1" VerticalAlignment="Top" Width="415" Height="171" />
+                </Grid>
+            </controls:PanoramaItem>
+            
+            <!--Panorama item three-->
+            <controls:PanoramaItem Header="All Items">
+                <Grid>
+                    <ScrollViewer Height="426" HorizontalAlignment="Left" Margin="-12,-12,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="431">
+                        <StackPanel Height="420" Name="stackPanel1" Width="424" />
+                    </ScrollViewer>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="65" HorizontalAlignment="Left" Margin="8,416,0,0" Name="border3" VerticalAlignment="Top" Width="200" Style="{StaticResource lblBorder}">
+                        <TextBlock Height="40" Name="textBlock1" Text="Items Count" FontSize="24" />
+                    </Border>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="65" HorizontalAlignment="Right" Margin="0,416,1,0" Name="border5" VerticalAlignment="Top" Width="200" Style="{StaticResource lblBorder}">
+                        <TextBlock Height="40" Name="textBlock2" Text="" FontSize="24" />
+                    </Border>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+        
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

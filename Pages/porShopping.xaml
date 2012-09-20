@@ -1,0 +1,59 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="IntelliShopMobile.Pages.porShopping"
+    Style="{StaticResource TurnStileTransition}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource BackGround}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="153"/>
+            <RowDefinition Height="615*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="0,0,0,33" Background="#FF7D87D4">
+            <TextBlock x:Name="ApplicationTitle" Style="{StaticResource AppTitle}"/>
+            <TextBlock x:Name="PageTitle" Text="Shopping" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,4,0,0">
+            <Border Margin="12,97,12,414" Name="border1" Style="{StaticResource BtnBorder}">
+                <Button Content="Create New List" Name="btnNewList" Style="{StaticResource Button}" Click="btnNewList_Click" />
+            </Border>
+            <Border Margin="12,204,13,307" Name="border2" Style="{StaticResource BtnBorder}">
+                <Button Content="Use Existing List" Name="btnUseExisting" Style="{StaticResource Button}" />
+            </Border>
+            <Border Margin="12,417,11,94" Name="border4" Style="{StaticResource BtnBorder}">
+                <Button Content="Shopping" Name="btnManage" Style="{StaticResource Button}" />
+            </Border>
+        </Grid>
+        <Border Margin="12,316,13,199" Name="border3" Style="{StaticResource BtnBorder}" Grid.Row="1">
+            <Button Content="Add items while shopping" Name="btnJustGoShop" Style="{StaticResource Button}" />
+        </Border>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>
