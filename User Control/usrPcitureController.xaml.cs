@@ -9,22 +9,14 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
-using Microsoft.Phone.Controls;
 
-namespace IntelliShopMobile.Pages
+namespace IntelliShopMobile.User_Control
 {
-    public partial class panNewItem : PhoneApplicationPage
+    public partial class usrPcitureController : UserControl
     {
-        public panNewItem()
+        public usrPcitureController()
         {
             InitializeComponent();
         }
-
-        private void btnContinue_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/Pages/porReviewItems.xaml", UriKind.Relative));
-        }
-
-        
     }
 }

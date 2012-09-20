@@ -19,5 +19,10 @@ namespace IntelliShopMobile.Pages
         {
             InitializeComponent();
         }
+
+        private void btnNewList_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Pages/porNewList.xaml", UriKind.Relative));
+        }
     }
 }

@@ -13,18 +13,11 @@ using Microsoft.Phone.Controls;
 
 namespace IntelliShopMobile.Pages
 {
-    public partial class panNewItem : PhoneApplicationPage
+    public partial class porReviewItems : PhoneApplicationPage
     {
-        public panNewItem()
+        public porReviewItems()
         {
             InitializeComponent();
         }
-
-        private void btnContinue_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/Pages/porReviewItems.xaml", UriKind.Relative));
-        }
-
-        
     }
 }

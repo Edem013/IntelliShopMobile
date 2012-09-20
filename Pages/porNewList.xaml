@@ -1,5 +1,6 @@
 ﻿<phone:PhoneApplicationPage 
     x:Class="IntelliShopMobile.Pages.porNewList"
+    Style="{StaticResource TurnStileTransition}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -38,7 +39,7 @@
                 <TextBlock FontSize="24" Height="33" Name="textBlock3" Text="Select List category" TextAlignment="Center" />
             </Border>
             <Border BorderBrush="Silver" BorderThickness="1" Height="90" HorizontalAlignment="Left" Margin="333,543,0,0" Name="border7" Style="{StaticResource Border}" VerticalAlignment="Top" Width="115">
-                <Button BorderThickness="0" Name="btnContinue">
+                <Button BorderThickness="0" Name="btnContinue" Click="btnContinue_Click">
                     <Image Source="C:\Users\Kisslac\documents\visual studio 2010\Projects\IntelliShopMobile\IntelliShopMobile\Pictures\imgDone.png" />
                 </Button>
             </Border>

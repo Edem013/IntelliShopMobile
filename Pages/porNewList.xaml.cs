@@ -19,5 +19,10 @@ namespace IntelliShopMobile.Pages
         {
             InitializeComponent();
         }
+
+        private void btnContinue_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Pages/panNewItem.xaml", UriKind.Relative));
+        }
     }
 }

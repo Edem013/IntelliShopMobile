@@ -75,10 +75,16 @@
     <Compile Include="Pages\porNewList.xaml.cs">
       <DependentUpon>porNewList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\porReviewItems.xaml.cs">
+      <DependentUpon>porReviewItems.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\porShopping.xaml.cs">
       <DependentUpon>porShopping.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Control\usrPcitureController.xaml.cs">
+      <DependentUpon>usrPcitureController.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -101,7 +107,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\porReviewItems.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\porShopping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Control\usrPcitureController.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

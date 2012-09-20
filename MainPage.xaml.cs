@@ -20,5 +20,10 @@ namespace IntelliShopMobile
         {
             InitializeComponent();
         }
+
+        private void btnShopping_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Pages/porShopping.xaml", UriKind.Relative));
+        }
     }
 }
